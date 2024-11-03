@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="fotsos/LOGOO.png" alt="Logo" class="logo links" />
+      <div class="header-content">
+        <h1>Contacteer Ons</h1>
+        <nav>
+          <a href="index.html">Home</a> |
+          <a href="kleding.html">Productcategorieën</a> |
+          <a href="contact.html">Contact Us</a> |
+          <a href="OnsVerhaal.html">Ons Verhaal</a> |
+          <a href="opening.html">Openingsuren</a> |
+        </nav>
+      </div>
+      <img src="fotsos/LOGOOOO.png" alt="Logo" class="logo rechts" />
+    </header>
+    <main>
+      <section>
+        <h2>Neem contact op</h2>
+        <p>Voor vragen of opmerkingen kunt u onderstaand formulier invullen:</p>
+        <form
+          action="mailto:alienthreads@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Naam:</label>
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="message">Bericht:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br />
+          <button type="submit">Verstuur</button>
+        </form>
+      </section>
+      <section>
+        <h2>Locatie</h2>
+        <p>België, Leuven, 3000, Andreas Vesaliusstraat 46</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Alien Threads.</p>
+    </footer>
+  </body>
+</html>
